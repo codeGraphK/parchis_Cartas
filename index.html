@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Christmas Project</title>
+  </head>
+  <body>
+    <section id="mainContainer" class="container">
+      <article id="mainShowFour" class="container">
+        <section id="Parchis" class="playArea">
+          <section>
+            <article class="Base circle" id="BaseAzul"></article>
+            <article class="Base circle" id="BaseAmarillo"></article>
+            <article class="Base circle" id="BaseTurquesa"></article>
+            <article class="Base circle" id="BaseRojo"></article>
+          </section>
+          <section>
+            <article class="pasoNormal pasoInter" id="Paso4"></article>
+            <article class="pasoNormal pasoInter" id="Paso12"></article>
+            <article class="pasoNormal pasoInter" id="Paso20"></article>
+            <article class="pasoNormal pasoInter" id="Paso28"></article>
+          </section>
+          <section>
+            <article class="pasoNormal Horz Columna1" id="Paso17"></article>
+            <article class="pasoNormal Horz Columna1" id="Paso18"></article>
+            <article class="pasoNormal Horz Columna1" id="Paso19"></article>
+            <article class="pasoNormal Horz Columna1" id="Paso29"></article>
+            <article class="pasoNormal Horz Columna1" id="Paso30"></article>
+            <article class="pasoNormal Horz Columna1" id="Paso31"></article>
+          </section>
+          <section>
+            <article class="pasoNormal Horz Columna2" id="Paso16Azul"></article>
+            <article
+              class="Horz Ultimas Azul Columna2"
+              id="Paso1Azul"
+            ></article>
+            <article
+              class="Horz Ultimas Azul Columna2"
+              id="Paso2Azul"
+            ></article>
+            <article
+              class="Horz Ultimas Rojo Columna2"
+              id="Paso2Rojo"
+            ></article>
+            <article
+              class="Horz Ultimas Rojo Columna2"
+              id="Paso1Rojo"
+            ></article>
+            <article class="pasoNormal Horz Columna2" id="Paso32Rojo"></article>
+          </section>
+          <section>
+            <article class="pasoNormal Horz Columna3" id="Paso15"></article>
+            <article class="pasoNormal Horz Columna3" id="Paso14"></article>
+            <article class="pasoNormal Horz Columna3" id="Paso13"></article>
+            <article class="pasoNormal Horz Columna3" id="Paso3"></article>
+            <article class="pasoNormal Horz Columna3" id="Paso2"></article>
+            <article class="pasoNormal Horz Columna3" id="Paso1"></article>
+          </section>
+          <section>
+            <article class="pasoNormal Vert Fila1" id="Paso23"></article>
+            <article class="pasoNormal Vert Fila1" id="Paso22"></article>
+            <article class="pasoNormal Vert Fila1" id="Paso21"></article>
+            <article class="pasoNormal Vert Fila1" id="Paso11"></article>
+            <article class="pasoNormal Vert Fila1" id="Paso10"></article>
+            <article class="pasoNormal Vert Fila1" id="Paso9"></article>
+          </section>
+          <section>
+            <article
+              class="pasoNormal Vert Fila2"
+              id="Paso24Turquesa"
+            ></article>
+            <article
+              class="Vert Ultimas Turquesa Fila2"
+              id="Paso1Turquesa"
+            ></article>
+            <article
+              class="Vert Ultimas Turquesa Fila2"
+              id="Paso2Turquesa"
+            ></article>
+            <article
+              class="Vert Ultimas Amarillo Fila2"
+              id="Paso2Amarillo"
+            ></article>
+            <article
+              class="Vert Ultimas Amarillo Fila2"
+              id="Paso1Amarillo"
+            ></article>
+            <article class="pasoNormal Vert Fila2" id="Paso8Amarillo"></article>
+          </section>
+          <section>
+            <article class="pasoNormal Vert Fila3" id="Paso25"></article>
+            <article class="pasoNormal Vert Fila3" id="Paso26"></article>
+            <article class="pasoNormal Vert Fila3" id="Paso27"></article>
+            <article class="pasoNormal Vert Fila3" id="Paso5"></article>
+            <article class="pasoNormal Vert Fila3" id="Paso6"></article>
+            <article class="pasoNormal Vert Fila3" id="Paso7"></article>
+          </section>
+          <article class="Vert Ultimas Amarillo" id="Paso3Amarillo"></article>
+          <article class="Horz Ultimas Azul" id="Paso3Azul"></article>
+          <article class="Vert Ultimas Turquesa" id="Paso3Turquesa"></article>
+          <article class="Horz Ultimas Rojo" id="Paso3Rojo"></article>
+          <article class="circle" id="Meta"></article>
+          <section id="fichasSection">
+            <article class="ficha circle Azul" id="fichaAzul"></article>
+            <article class="ficha circle Amarillo" id="fichaAmarillo"></article>
+            <article class="ficha circle Turquesa" id="fichaTurquesa"></article>
+            <article class="ficha circle Rojo" id="fichaRojo"></article>
+          </section>
+        </section>
+        <article id="jugadorUnoParchis" class="JugadorParchis">
+          <span class="textoRegular nombreJugador" id="nombreJugadorParchisUno"
+            >name</span
+          >
+          <img alt="dado" id="dadoParchis" />
+        </article>
+        <article id="jugadorDosParchis" class="JugadorParchis">
+          <span class="textoRegular nombreJugador" id="nombreJugadorParchisDos"
+            >name</span
+          >
+        </article>
+        <article id="jugadorTresParchis" class="JugadorParchis">
+          <span class="textoRegular nombreJugador" id="nombreJugadorParchisTres"
+            >name</span
+          >
+        </article>
+        <article id="jugadorFourParchis" class="JugadorParchis">
+          <span class="textoRegular nombreJugador" id="nombreJugadorParchisFour"
+            >name</span
+          >
+        </article>
+        <span class="tituloBold gameTitle" id="parchisTitle">Some Title</span>
+      </article>
+      <article id="mainShowThree" class="containerModified">
+        <section id="firstThree" class="container">
+          <nav class="mainMenu">
+            <span class="textoMedium"><a href="#firstThree">Home</a></span>
+            <span class="textoMedium"><a href="#secThree">About</a></span>
+            <span class="textoMedium"><a href="#thirdThree">Contact</a></span>
+          </nav>
+          <img id="tealPortion" src="img/tealSection.svg" />
+          <span id="EnterpriseTitle" class="tituloBold">Someone's Name</span>
+          <span id="EnterpriseDesc" class="textoRegular"
+            >Here's the description about someone's enterprise</span
+          >
+          <img id="purplePortion" src="img/purpleSection.svg" />
+          <img id="firstIlust" src="img/primerUnDraw.svg" />
+        </section>
+        <section id="secThree" class="container">
+          <span id="titleAbout" class="tituloBold">About</span>
+          <p id="paraAbout" class="textoRegular">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit velit,
+            integer sagittis volutpat dui cursus etiam curabitur, justo torquent
+            vestibulum ad pellentesque sollicitudin ornare. Nullam egestas odio
+            montes duis lectus nunc euismod sapien inceptos, consequat accumsan
+            ultrices purus class morbi taciti tellus turpis facilisis, velit
+            urna mattis aptent etiam fringilla elementum luctus. Fusce rutrum
+            porttitor pellentesque tempus purus sed ac orci euismod cum, cursus
+            aptent per tempor augue sapien pharetra quisque.
+          </p>
+        </section>
+        <section id="thirdThree" class="container">
+          <span id="titleContact" class="tituloBold">Contact</span>
+          <input
+            type="text"
+            name="nombre"
+            id="nombreIn"
+            class="textoRegular"
+            placeholder="Nombre"
+          />
+          <input
+            type="text"
+            name="apell"
+            id="apellIn"
+            class="textoRegular"
+            placeholder="Correo"
+          />
+          <textarea
+            name="comentarios"
+            id="comentIn"
+            class="textoRegular"
+            cols="30"
+            rows="10"
+            placeholder="Comentarios"
+          ></textarea>
+          <article id="buttonThree" class="boton">
+            <span id="threeBoton" class="tituloBold tituloBoton">Button</span>
+          </article>
+          <img id="secIlust" src="img/segundoUnDraw.svg" />
+        </section>
+      </article>
+      <article id="mainShowTwo" class="container">
+        <section id="Cards" class="playArea">
+          <article id="number1" class="allCards Uno"></article>
+          <article id="number2" class="allCards Cuatro"></article>
+          <article id="number3" class="allCards Ocho"></article>
+          <article id="number4" class="allCards Dos"></article>
+          <article id="number5" class="allCards Tres"></article>
+          <article id="number6" class="allCards Siete"></article>
+          <article id="number7" class="allCards Cinco"></article>
+          <article id="number8" class="allCards Seis"></article>
+          <article id="number9" class="allCards Uno"></article>
+          <article id="number10" class="allCards Dos"></article>
+          <article id="number11" class="allCards Seis"></article>
+          <article id="number12" class="allCards Cuatro"></article>
+          <article id="number13" class="allCards Siete"></article>
+          <article id="number14" class="allCards Cinco"></article>
+          <article id="number15" class="allCards Tres"></article>
+        </section>
+        <article id="jugadorUnoCards" class="Jugador">
+          <span class="textoRegular nombreJugador" id="nombreJugadorUno"
+            >Jug1</span
+          >
+          <span class="tituloBold" id="MarcadorUnoCard">0</span>
+        </article>
+        <article id="jugadorDosCards" class="Jugador">
+          <span class="textoRegular nombreJugador" id="nombreJugadorDos"
+            >Jug2</span
+          >
+          <span class="tituloBold" id="MarcadorDosCard">0</span>
+        </article>
+        <span class="tituloBold gameTitle" id="cardsTitle">Some Title</span>
+      </article>
+      <article id="mainShowOne" class="container">
+        <article id="BigOne" class="circle"></article>
+        <article id="buttonInitial" class="boton">
+          <span id="tituloBotonMain" class="tituloBold tituloBoton"
+            >Button</span
+          >
+        </article>
+        <span id="mainTitle" class="tituloBold">Unnamed Title</span>
+      </article>
+      <article id="sideMenu">
+        <article class="gamesOptions" id="HomeButton"></article>
+        <article class="gamesOptions" id="CardsButton"></article>
+        <article class="gamesOptions" id="ParchesButton"></article>
+        <article class="gamesOptions" id="GuidelinesButton"></article>
+      </article>
+      <article id="OurLogo"></article>
+    </section>
+    <script type="text/xml" id="input">
+        <estilos>
+          <estilo num="1">
+              <colores>
+                  <principal>
+                      <regular>#1B998B</regular>
+                      <oscuro>#255957</oscuro>
+                  </principal>
+                  <comPrincipal>
+                      <regular>#EFFFF5</regular>
+                      <oscuro>#E8F7EE</oscuro>
+                  </comPrincipal>
+                  <secundario>
+                      <regular>#F46036</regular>
+                      <oscuro>#CE3F19</oscuro>
+                      <claro>#FEF0EC</claro>
+                  </secundario>
+              </colores>
+              <texto>
+                <segundaPantalla>
+                    <titulo>
+                        <valor>Ridondanza S.A</valor>
+                    </titulo>
+                    <subtitulo>
+                        <valor>Più ridondanza rispetto agli stipendi</valor>
+                    </subtitulo>
+                </segundaPantalla>
+                <terceraPantalla>
+                    <titulo>
+                        <valor>Le lettere</valor>
+                    </titulo>
+                    <nombre>Gior</nombre>
+                    <nombre>Hugo</nombre>
+                </terceraPantalla>
+                <cuartaPantalla>
+                    <titulo>
+                        <valor>Parcheesi</valor>
+                    </titulo>
+                    <nombre>Quan</nombre>
+                    <nombre>Petto</nombre>
+                    <nombre>Pevre</nombre>
+                    <nombre>Caste</nombre>
+                </cuartaPantalla>
+            </texto>
+              <imagenes>
+                <logo>url("img/logoFirst.svg")</logo>
+                <cartaBack>url('img/backCardFirst.svg')</cartaBack>
+                <curvaMayor>img/purpleSectionFirst.svg</curvaMayor>
+                <curvaMenor>img/tealSectionFirst.svg</curvaMenor>
+                <primeraIlustracion>img/primerUnDrawFirst.svg</primeraIlustracion>
+                <segundaIlustracion>img/segundoUnDrawFirst.svg</segundaIlustracion>
+            </imagenes>
+          </estilo>
+          <estilo num="2">
+            <colores>
+                <principal>
+                    <regular>#4C2D3A</regular>
+                    <oscuro>#311D25</oscuro>
+                </principal>
+                <comPrincipal>
+                    <regular>#FCF9F4</regular>
+                    <oscuro>#DED6C6</oscuro>
+                </comPrincipal>
+                <secundario>
+                    <regular>#058ED9</regular>
+                    <oscuro>#04689E</oscuro>
+                    <claro>#E8F4FB</claro>
+                </secundario>
+            </colores>
+            <texto>
+                <segundaPantalla>
+                    <titulo>
+                        <valor>Poisson à L'Orange</valor>
+                    </titulo>
+                    <subtitulo>
+                        <valor>Je préfère une glace à la saucisse</valor>
+                    </subtitulo>
+                </segundaPantalla>
+                <terceraPantalla>
+                    <titulo>
+                        <valor>Des Lettres</valor>
+                    </titulo>
+                    <nombre>Ange</nombre>
+                    <nombre>Rome</nombre>
+                </terceraPantalla>
+                <cuartaPantalla>
+                    <titulo>
+                        <valor>L'Parcheesi</valor>
+                    </titulo>
+                    <nombre>Char</nombre>
+                    <nombre>Lotte</nombre>
+                    <nombre>Abrah</nombre>
+                    <nombre>Amow</nombre>
+                </cuartaPantalla>
+            </texto>
+            <imagenes>
+                <logo>url("img/logoSecond.svg")</logo>
+                <cartaBack>url('img/backCardSecond.svg')</cartaBack>
+                <curvaMayor>img/purpleSectionSecond.svg</curvaMayor>
+                <curvaMenor>img/tealSectionSecond.svg</curvaMenor>
+                <primeraIlustracion>img/primerUnDrawSecond.svg</primeraIlustracion>
+                <segundaIlustracion>img/segundoUnDrawSecond.svg</segundaIlustracion>
+            </imagenes>
+          </estilo>
+          <estilo num="3">
+            <colores>
+                <principal>
+                    <regular>#4f304b</regular>
+                    <oscuro>#22031f</oscuro>
+                </principal>
+                <comPrincipal>
+                    <regular>#ffe6ff</regular>
+                    <oscuro>#e8d2e8</oscuro>
+                </comPrincipal>
+                <secundario>
+                    <regular>#00c893</regular>
+                    <oscuro>#00805e</oscuro>
+                    <claro>#e9fef4</claro>
+                </secundario>
+            </colores>
+            <texto>
+              <segundaPantalla>
+                  <titulo>
+                      <valor>Estilo inicial</valor>
+                  </titulo>
+                  <subtitulo>
+                      <valor>Este es el valor por defecto</valor>
+                  </subtitulo>
+              </segundaPantalla>
+              <terceraPantalla>
+                  <titulo>
+                      <valor>Son Cartas</valor>
+                  </titulo>
+                  <nombre>Paco</nombre>
+                  <nombre>Pepe</nombre>
+              </terceraPantalla>
+              <cuartaPantalla>
+                  <titulo>
+                      <valor>don Parchis</valor>
+                  </titulo>
+                  <nombre>Lucho</nombre>
+                  <nombre>Perez</nombre>
+                  <nombre>Henry</nombre>
+                  <nombre>Diego</nombre>
+              </cuartaPantalla>
+          </texto>
+            <imagenes>
+                <logo>url("img/logo.svg")</logo>
+                <cartaBack>url('img/backCard.svg')</cartaBack>
+                <curvaMayor>img/purpleSection.svg</curvaMayor>
+                <curvaMenor>img/tealSection.svg</curvaMenor>
+                <primeraIlustracion>img/primerUnDraw.svg</primeraIlustracion>
+                <segundaIlustracion>img/segundoUnDraw.svg</segundaIlustracion>
+            </imagenes>
+        </estilo>
+      </estilos>
+    </script>
+    <script src="script/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,758 @@
+/* -------- Estilos y Reglas Generales -------- */
+
+@charset "UTF-8";
+
+@import url(animations.css);
+
+:root {
+  --vTurquesa: #00c893;
+  --vTurquesaDark: #00805e;
+  --vTurquesaLight: #e9fef4;
+  --vMoradoDark: #22031f;
+  --vMoradoLight: #4f304b;
+  --vLila: #ffe6ff;
+  --vLilaDark: #e8d2e8;
+  --vBlanco: #ffffff;
+  --colorFichaAzul: #30c5ff;
+  --colorFichaTurquesa: #00c893;
+  --colorFichaRojo: #db2332;
+  --colorFichaAmarilla: #f19a3e;
+}
+
+@font-face {
+  font-family: mainPresent;
+  src: url("../src/TTCommons-Bold.ttf");
+}
+
+@font-face {
+  font-family: mainRegular;
+  src: url("../src/TTCommons-Regular.ttf");
+}
+
+@font-face {
+  font-family: mainMedium;
+  src: url("../src/TTCommons-Medium.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #11171a33;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--vLila);
+}
+
+.containerModified {
+  position: absolute;
+  width: 100vw;
+  height: 300vh;
+  background: linear-gradient(
+    180deg,
+    var(--vLila) 10%,
+    var(--vTurquesaLight) 0%
+  );
+}
+
+.containerModified .container {
+  position: relative;
+  width: 100vw;
+  height: 56.25vw;
+  background-color: var(--vLila);
+}
+
+.boton {
+  position: absolute;
+  background-color: var(--vTurquesa);
+  width: 14.375vw;
+  height: 5.78vw;
+  left: 42.8vw;
+  border-radius: 3.07vw;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.44);
+}
+
+.tituloBoton {
+  position: absolute;
+  font-size: 3vw;
+  left: 2.65vw;
+  top: 1.35vw;
+}
+
+.tituloBold {
+  font-family: mainPresent;
+}
+
+.textoRegular {
+  font-family: mainRegular;
+}
+
+.textoMedium {
+  font-family: mainMedium;
+}
+
+.Jugador,
+.JugadorParchis {
+  position: absolute;
+  width: 13.54vw;
+  height: 13.54vw;
+  border-radius: 2.8vw;
+}
+
+.Jugador {
+  background-color: var(--vLilaDark);
+}
+
+.JugadorParchis {
+  background-color: var(--vBlanco);
+  box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nombreJugador {
+  position: absolute;
+  font-size: 3.64vw;
+  left: 2.76vw;
+  top: 1.4vw;
+}
+
+.playArea {
+  position: absolute;
+  top: 12.23vw;
+  border-radius: 4.8vw;
+}
+
+.gameTitle {
+  position: absolute;
+  font-size: 5.2vw;
+  left: 38.4vw;
+  top: 5.2vw;
+  color: var(--vMoradoLight);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.5s ease-in-out, background 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+
+/* ------- Inicio ------- */
+
+#mainContainer {
+  overflow: hidden;
+}
+
+#sideMenu {
+  position: absolute;
+  width: 10vw;
+  height: 100vh;
+  left: -10vw;
+  background-color: var(--vMoradoDark);
+}
+.gamesOptions {
+  position: absolute;
+  width: 5.4vw;
+  height: 5.4vw;
+  left: 2.39vw;
+  background-color: var(--vMoradoLight);
+}
+.gamesOptions:nth-child(1) {
+  top: 18.8vw;
+  background: url("../img/mainSideMenu.svg");
+  background-size: cover;
+}
+.gamesOptions:nth-child(2) {
+  top: 26.3vw;
+  background: url("../img/cartasSideMenu.svg");
+  background-size: cover;
+}
+.gamesOptions:nth-child(3) {
+  top: 33.8vw;
+  background: url("../img/parchisSideMenu.svg");
+  background-size: cover;
+}
+.gamesOptions:nth-child(4) {
+  top: 48.23vw;
+  background: url("../img/colorSideMenu.svg");
+  background-size: cover;
+  border-radius: 36%;
+}
+
+/* ------- Primera pantalla ------- */
+
+#BigOne {
+  position: absolute;
+  width: 126.25vw;
+  height: 126.25vw;
+  top: -165vh;
+  left: -13.125vw;
+  background-color: var(--vMoradoLight);
+  background: url("../img/equisOMorado.svg") var(--vMoradoLight) fixed repeat;
+  background-size: 5vw;
+  animation: circuloEntrada 1.7s ease-in-out forwards;
+}
+
+#OurLogo {
+  position: absolute;
+  width: 28.33vw;
+  height: 28.33vw;
+  left: 35.83vw;
+  top: 24.26vh;
+  background: url("../img/logo.svg");
+  background-size: cover;
+  /* box-shadow: 0px 15px 15px 0px rgba(177, 177, 177, 0.25); */
+  animation: desaVaina 1.5s ease-in-out forwards;
+  z-index: 6;
+}
+
+#buttonInitial {
+  top: 80.46vh;
+  animation: botonEntrada 1.5s ease-in-out forwards;
+}
+
+#tituloBotonMain {
+  color: var(--vLila);
+}
+
+#mainTitle {
+  position: absolute;
+  font-size: 6.98vw;
+  left: 28.6vw;
+  top: 9.26vh;
+  color: var(--vLila);
+}
+
+/* --------- Segunda pantalla -------- */
+
+#Cards {
+  height: 38.8vw;
+  width: 49.48vw;
+  left: 25.26vw;
+  background-color: var(--vLilaDark);
+}
+
+.allCards {
+  position: absolute;
+  height: 9.74vw;
+  width: 7.19vw;
+  background: url("../img/backCard.svg");
+  background-size: cover;
+}
+
+.allCards:nth-child(5n + 1):nth-child(-n + 15) {
+  left: 3.6vw;
+}
+.allCards:nth-child(5n + 2):nth-child(-n + 15) {
+  left: 12.4vw;
+}
+.allCards:nth-child(5n + 3):nth-child(-n + 15) {
+  left: 21.1vw;
+}
+.allCards:nth-child(5n + 4):nth-child(-n + 15) {
+  left: 29.9vw;
+}
+.allCards:nth-child(5n + 5):nth-child(-n + 15) {
+  left: 38.7vw;
+}
+
+.allCards:nth-child(-n + 5) {
+  top: 3.18vw;
+}
+.allCards:nth-child(n + 6):nth-child(-n + 10) {
+  top: 14.5vw;
+}
+.allCards:nth-child(n + 11):nth-child(-n + 15) {
+  top: 25.89vw;
+}
+
+#jugadorUnoCards,
+#jugadorDosCards {
+  top: 24.89vw;
+  transition: all 0.5s ease-in-out;
+}
+
+#jugadorUnoCards {
+  left: 7.3vw;
+}
+
+#jugadorDosCards {
+  left: 79.17vw;
+}
+
+#jugadorUnoCards .tituloBold,
+#jugadorDosCards .tituloBold {
+  position: absolute;
+  font-size: 7.8vw;
+  left: 4.37vw;
+  top: 4.5vw;
+  color: var(--vMoradoLight);
+}
+
+#jugadorUnoCards .nombreJugador,
+#jugadorDosCards .nombreJugador {
+  color: var(--vMoradoLight);
+}
+
+/* ----------- Tercera pantalla ----------- */
+
+/* Primera sección */
+
+.mainMenu {
+  position: absolute;
+  left: 51.2vw;
+  top: 4.63vw;
+  font-size: 2.6vw;
+}
+
+.mainMenu .textoMedium {
+  position: absolute;
+}
+
+.textoMedium:nth-child(2) {
+  left: 14.84vw;
+}
+
+.textoMedium:nth-child(3) {
+  left: 29.89vw;
+}
+
+#EnterpriseTitle {
+  position: absolute;
+  font-size: 7.8vw;
+  left: 10.47vw;
+  top: 17.45vw;
+}
+
+#EnterpriseDesc {
+  position: absolute;
+  font-size: 2.34vw;
+  left: 10.47vw;
+  top: 25.78vw;
+}
+
+#tealPortion {
+  position: absolute;
+  width: 46vw;
+  height: 33.42vw;
+  top: 36.2vw;
+}
+
+#purplePortion {
+  position: absolute;
+  width: 100vw;
+  height: 93.89vw;
+  top: 36.1vw;
+}
+
+#firstIlust {
+  position: absolute;
+  width: 33vw;
+  height: 19.84vw;
+  top: 24.58vw;
+  left: 62.24vw;
+}
+
+/* Segunda Sección */
+
+#secThree {
+  color: var(--vLila);
+  background-color: transparent;
+  letter-spacing: 0.02vw;
+  line-height: 2.8vw;
+}
+
+#titleAbout {
+  position: absolute;
+  font-size: 8vw;
+  top: 24.1vw;
+  left: 14.58vw;
+}
+
+#paraAbout {
+  position: absolute;
+  font-size: 2vw;
+  left: 50.42vw;
+  top: 11.56vw;
+  width: 34.22vw;
+  height: 35.83vw;
+  overflow: hidden;
+}
+
+/* Tercera Sección */
+
+#thirdThree {
+  background-color: transparent;
+  color: var(--vTurquesa);
+}
+
+#titleContact {
+  position: absolute;
+  top: 11.5vw;
+  left: 39.5vw;
+  font-size: 6.25vw;
+}
+
+#nombreIn,
+#apellIn,
+#comentIn {
+  position: absolute;
+  padding: 2vw;
+  font-size: 2.13vw;
+  background: none;
+  border: solid 0.5vw var(--vTurquesa);
+}
+
+#nombreIn,
+#apellIn {
+  border-radius: 2.9vw;
+  width: 24.89vw;
+  height: 5.83vw;
+  left: 24vw;
+}
+
+#nombreIn {
+  top: 25.73vw;
+}
+
+#apellIn {
+  top: 33.5vw;
+}
+
+#comentIn {
+  border-radius: 3.4vw;
+  width: 24.89vw;
+  height: 13.6vw;
+  top: 25.73vw;
+  left: 51vw;
+}
+
+#buttonThree {
+  top: 43.7vw;
+}
+
+#threeBoton {
+  color: var(--vTurquesaLight);
+}
+
+#secIlust {
+  position: absolute;
+  width: 28.83vw;
+  height: 21.24vw;
+  top: 32.55vw;
+  left: 1.32vw;
+}
+
+/* --------- Cuarta Pantalla --------- */
+
+#Parchis {
+  width: 38.85vw;
+  height: 38.85vw;
+  left: 30.57vw;
+  background-color: var(--vMoradoLight);
+  box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 0.4);
+}
+
+#Parchis * {
+  position: absolute;
+}
+
+.JugadorParchis,
+.JugadorParchis * {
+  transition: all 0.5s ease-in-out;
+}
+
+.JugadorParchis:nth-of-type(odd) {
+  left: 8.96vw;
+}
+
+.JugadorParchis:nth-of-type(even) {
+  left: 77.6vw;
+}
+
+.JugadorParchis:nth-of-type(-n + 2) {
+  top: 15.88vw;
+}
+
+.JugadorParchis:nth-of-type(-n + 4):nth-of-type(n + 3) {
+  top: 33.96vw;
+}
+
+.JugadorParchis:nth-of-type(1) .nombreJugador {
+  color: var(--colorFichaAzul);
+}
+.JugadorParchis:nth-of-type(2) .nombreJugador {
+  color: var(--colorFichaAmarilla);
+}
+.JugadorParchis:nth-of-type(3) .nombreJugador {
+  color: var(--colorFichaTurquesa);
+}
+.JugadorParchis:nth-of-type(4) .nombreJugador {
+  color: var(--colorFichaRojo);
+}
+
+#dadoParchis {
+  position: absolute;
+  width: 7.1vw;
+  height: 7.1vw;
+  left: 23.85%;
+  top: 37.31%;
+  content: url("../img/dadoUno.svg");
+}
+
+.Base {
+  width: 7.34vw;
+  height: 7.34vw;
+}
+
+.Base:nth-of-type(odd) {
+  left: 1.8vw;
+}
+
+.Base:nth-of-type(even) {
+  left: 29.7vw;
+}
+
+.Base:nth-of-type(-n + 2) {
+  top: 1.93vw;
+}
+
+.Base:nth-of-type(-n + 4):nth-of-type(n + 3) {
+  top: 29.3vw;
+}
+
+.pasoNormal,
+.pasoInter,
+.Ultimas {
+  border-radius: 1.56vw;
+}
+
+.pasoNormal,
+.pasoInter,
+#Meta {
+  background-color: var(--vBlanco);
+}
+
+.Vert {
+  width: 2.3vw;
+  height: 5.26vw;
+}
+
+.Horz {
+  width: 5.26vw;
+  height: 2.3vw;
+}
+
+.pasoInter {
+  width: 5.26vw;
+  height: 5.26vw;
+}
+
+.pasoInter:nth-of-type(-n + 2),
+.Columna3 {
+  left: 23vw;
+}
+
+.pasoInter:nth-of-type(-n + 4):nth-of-type(n + 3),
+.Columna1 {
+  left: 10.67vw;
+}
+
+.pasoInter:nth-of-type(3n + 1),
+.Fila3 {
+  top: 23vw;
+}
+
+.pasoInter:nth-of-type(-n + 3):nth-of-type(n + 2),
+.Fila1 {
+  top: 10.67vw;
+}
+
+.Columna2,
+#Paso3Azul,
+#Paso3Rojo {
+  left: 16.8vw;
+}
+
+.Fila2,
+#Paso3Turquesa,
+#Paso3Amarillo {
+  top: 16.8vw;
+}
+
+.Horz:nth-child(1) {
+  top: 1.35vw;
+}
+
+.Horz:nth-child(2) {
+  top: 4.17vw;
+}
+
+.Horz:nth-child(3) {
+  top: 7.1vw;
+}
+
+.Horz:nth-child(4) {
+  top: 29.43vw;
+}
+
+.Horz:nth-child(5) {
+  top: 32.34vw;
+}
+
+.Horz:nth-child(6) {
+  top: 35.3vw;
+}
+
+.Vert:nth-child(1) {
+  left: 1.35vw;
+}
+
+.Vert:nth-child(2) {
+  left: 4.17vw;
+}
+
+.Vert:nth-child(3) {
+  left: 7.1vw;
+}
+
+.Vert:nth-child(4) {
+  left: 29.43vw;
+}
+
+.Vert:nth-child(5) {
+  left: 32.34vw;
+}
+
+.Vert:nth-child(6) {
+  left: 35.3vw;
+}
+
+#Paso3Azul {
+  top: 10vw;
+}
+
+#Paso3Rojo {
+  top: 26.55vw;
+}
+
+#Paso3Turquesa {
+  left: 10.18vw;
+}
+
+#Paso3Amarillo {
+  left: 26.37vw;
+}
+
+.Azul,
+#Paso16Azul,
+#BaseAzul {
+  background-color: var(--colorFichaAzul);
+}
+
+.Rojo,
+#Paso32Rojo,
+#BaseRojo {
+  background-color: var(--colorFichaRojo);
+}
+
+.Turquesa,
+#Paso24Turquesa,
+#BaseTurquesa {
+  background-color: var(--colorFichaTurquesa);
+}
+
+.Amarillo,
+#Paso8Amarillo,
+#BaseAmarillo {
+  background-color: var(--colorFichaAmarilla);
+}
+
+#Meta {
+  width: 12.19vw;
+  height: 12.19vw;
+  left: 13.33vw;
+  top: 13.33vw;
+  box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 0.4);
+}
+
+.ficha {
+  width: 2.1vw;
+  height: 2.1vw;
+  border: solid 0.36vw var(--vBlanco);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+#fichasSection #fichaAzul {
+  left: 4.5vw;
+  top: 4.6vw;
+}
+
+#fichasSection #fichaAmarillo {
+  left: 32.34vw;
+  top: 4.6vw;
+}
+
+#fichasSection #fichaTurquesa {
+  left: 4.5vw;
+  top: 32.24vw;
+}
+
+#fichasSection #fichaRojo {
+  left: 32.34vw;
+  top: 32.24vw;
+}
+
+.Horz .ficha {
+  left: 30%;
+  top: 1%;
+}
+
+.Vert .ficha {
+  top: 30%;
+  left: 1%;
+}
+
+.pasoInter .ficha {
+  top: 30%;
+  left: 30%;
+}
+
+#Meta .ficha {
+  height: 4vw;
+  width: 4vw;
+  left: 34%;
+  top: 34%;
+}
+
+/* ---------- Puntero ------------- */
+
+.gamesOptions,
+#buttonInitial {
+  cursor: pointer;
+}

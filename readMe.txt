@@ -1,0 +1,5 @@
+Unas pocas anotaciones acerca del funcionamiento de la página:
+La posición de los elementos y su tamaño están definidos en proporción al ancho del viewport (ancho de la ventana del navegador), su proporción estimada fue de una resolución 1920 x 1080, por lo cual en pantallas de diferente resolución no proporcional a ésta, la posición de los elementos puede no ser la deseada.
+En la sección del juego de cartas se debe mantener el mouse dentro de la carta (en el centro debido a que ésta cambia de ancho en función de su giro en eje Y) mientras se esté ejecutando la animación que muestra la otra cara de ésta. Si no se mantiene de la anterior forma, la animación no se desarrollará de la manera esperada.
+El fondo que utiliza las cartas por igual contiene un signo ? el cual debería ser de la misma fuente que el resto de texto de la página, puede suceder que no se muestre así y que tome la fuente por defecto de Times New Roman.
+La función que cumple el XML en esta página es cambiar los títulos de los jugadores, los colores que contiene a la vez que las imágenes que les complementan.

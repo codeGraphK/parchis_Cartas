@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="661.201" height="406.899" viewBox="0 0 661.201 406.899">
+  <defs>
+    <filter id="Trazado_3" x="6.198" y="85.63" width="105.054" height="301.723" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_4" x="602.996" y="251.438" width="54.276" height="136.234" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_7" x="0" y="352.169" width="661.201" height="54.73" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_23" x="114.341" y="146.042" width="378.35" height="232.838" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_8" x="520.826" y="66.002" width="43.018" height="105.648" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_9" x="405.672" y="34.412" width="47.277" height="98.286" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_10" x="399.569" y="110.283" width="154.922" height="247.879" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_11" x="385.192" y="197.095" width="84.822" height="48.461" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_12" x="476.834" y="329.596" width="72.175" height="57.757" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_8" x="418.984" y="7.664" width="55.434" height="55.434" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_13" x="439.353" y="24.179" width="56.163" height="52.681" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_14" x="424.214" y="24.626" width="133.328" height="143.532" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_15" x="411.11" y="0" width="65.997" height="48.905" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-13"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_17" data-name="Grupo 17" transform="translate(15 6)">
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_3)">
+      <path id="Trazado_3-2" data-name="Trazado 3" d="M106.158,543.76,143.507,490.1,106.14,549.6l-.022,6.105q-4-.034-7.91-.26c-.012-1.386,3.163-77.663,3.028-79.043.184-.052.288-7.214.361-7.528L62.578,410.23l39.06,53.092.116,1.569,2.317-59.262L70.531,344.942l33.806,50.274c.013-.806,1.6-122.485,1.616-123.236.01.4.738,96.832.744,97.239L138.774,330.4l-32.108,47.157L106.5,430.6l29.768-51.29c-37.15,74.8-28.928,48.624-29.877,88.58l43.239-71.417-43.277,81.706Z" transform="translate(-47.38 -180.35)" fill="#c9c9c9"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_4)">
+      <path id="Trazado_4-2" data-name="Trazado 4" d="M1094.309,666.837l15.564-22.363-15.572,24.8-.009,2.544q-1.665-.014-3.3-.108c0-.578,1.318-32.364,1.262-32.939.077-.022.12-3.006.15-3.137l-16.258-24.437,16.277,22.125.049.654.966-24.7-13.977-25.29,14.088,20.951c.005-.336.667-51.043.673-51.356,0,.166.308,40.352.31,40.522l13.368-16.175-13.382,19.651-.068,22.1,12.405-21.374c-15.481,31.17-12.055,20.263-12.451,36.913l18.019-29.761-18.034,34.049Z" transform="translate(-464.15 -296.14)" fill="#c9c9c9"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Elipse_7)">
+      <ellipse id="Elipse_7-2" data-name="Elipse 7" cx="315.601" cy="12.365" rx="315.601" ry="12.365" transform="translate(15 362.17)" fill="#c9c9c9"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Rectángulo_23)">
+      <rect id="Rectángulo_23-2" data-name="Rectángulo 23" width="360.35" height="214.838" transform="translate(123.34 152.04)" fill="#3f3d56"/>
+    </g>
+    <path id="Trazado_5" data-name="Trazado 5" d="M335.423,374.581a86.174,86.174,0,0,1-86.154,84.771c-1.013,0-2.02-.018-3.026-.053V374.581Z" transform="translate(-137.901 -228.539)" fill="#F46036"/>
+    <path id="Trazado_6" data-name="Trazado 6" d="M558.245,731.1H523.972a18.258,18.258,0,0,1,34.273,0Z" transform="translate(-252.102 -370.22)" fill="#F46036"/>
+    <path id="Trazado_7" data-name="Trazado 7" d="M834.179,550.721v72.365a36.225,36.225,0,0,1,0-72.365Z" transform="translate(-365.489 -300.966)" fill="#F46036"/>
+    <rect id="Rectángulo_24" data-name="Rectángulo 24" width="248.56" height="21.234" rx="10.617" transform="translate(164.548 224.109)" fill="#fff"/>
+    <rect id="Rectángulo_25" data-name="Rectángulo 25" width="248.56" height="21.234" rx="10.617" transform="translate(164.548 265.952)" fill="#fff"/>
+    <rect id="Rectángulo_26" data-name="Rectángulo 26" width="87.146" height="21.234" rx="10.617" transform="translate(325.962 307.795)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_8)">
+      <path id="Trazado_8-2" data-name="Trazado 8" d="M947.605,238.66s9.909,3.853,10.459,16.515-2.752,47.893-2.752,47.893,12.111,17.616,2.752,22.57-10.459-19.818-10.459-19.818l-11.01-52.3S943.2,238.109,947.605,238.66Z" transform="translate(-406.77 -166.64)" fill="#ffb8b8"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_9)">
+      <path id="Trazado_9-2" data-name="Trazado 9" d="M765.9,257.336s-23.671,15.414-24.772,3.3,7.156-59.453,7.156-59.453,1.1-20.368,12.661-15.414-3.3,22.02-3.3,22.02l1.651,38.535,11.01-.551Z" transform="translate(-326.35 -144.58)" fill="#ffb8b8"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_10)">
+      <path id="Trazado_10-2" data-name="Trazado 10" d="M799.619,324.633s-72.665-26.974-68.811,4.4,22.57,71.014,22.57,71.014l6.606,10.459h13.762l-8.808-56.7s31.378,17.616,40.737,14.863c0,0,12.111,80.923,16.515,86.978S834.3,534.921,834.3,534.921l7.156,8.808h13.762V419.868s23.671-77.069,5.505-80.923S799.619,324.633,799.619,324.633Z" transform="translate(-322.09 -197.57)" fill="#2f2e41"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_11)">
+      <path id="Trazado_11-2" data-name="Trazado 11" d="M748.292,463.979s-3.3-6.055-8.808,0-18.717,13.212-18.717,13.212-28.626,6.606-5.505,12.111,25.873,0,25.873,0,3.854,1.1,7.156,2.2,24.772-2.752,24.772-6.056-7.289-23.042-10.25-20.054S748.292,463.979,748.292,463.979Z" transform="translate(-312.05 -258.19)" fill="#2f2e41"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_12)">
+      <path id="Trazado_12-2" data-name="Trazado 12" d="M896.469,691.437s-8.117-6.684-10.027-4.775-11.936,14.8-11.936,14.8-26.738,20.531-2.387,23.873,22.918-5.729,22.918-5.729h7.639c.955,0,13.846-5.729,13.369-8.117s-6.207-21.854-8.117-20.476S896.469,691.437,896.469,691.437Z" transform="translate(-376.05 -350.72)" fill="#2f2e41"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Elipse_8)">
+      <circle id="Elipse_8-2" data-name="Elipse 8" cx="18.717" cy="18.717" r="18.717" transform="translate(427.98 13.66)" fill="#ffb8b8"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_13)">
+      <path id="Trazado_13-2" data-name="Trazado 13" d="M809.786,167.615s14.313,12.111,24.222,12.111-14.313,22.57-14.313,22.57l-21.469-19.267Z" transform="translate(-349.87 -137.44)" fill="#ffb8b8"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_14)">
+      <path id="Trazado_14-2" data-name="Trazado 14" d="M804.719,202.609l-.429-4.337s10.888-19.334,14.191-20.986a13.667,13.667,0,0,1,5.505-1.651s11.01-11.56,23.121-5.5,40.736,44.59,40.736,44.59-20.368,1.651-17.616,17.616c0,0,20.368,52.3,14.863,52.847s-22.02-3.3-39.085,4.4-24.772,2.752-24.772,2.752l-8.808-28.626s-16.515-9.358-15.964-17.616l-23.946,10.735,2.2-20.368,14.588-16.79S786.553,217.472,804.719,202.609Z" transform="translate(-339.3 -137.75)" fill="#1B998B"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -15, -6)" filter="url(#Trazado_15)">
+      <path id="Trazado_15-2" data-name="Trazado 15" d="M759.634,154.956a6.911,6.911,0,0,1-2.718,1.851,2.371,2.371,0,0,1-2.834-1.091l.791-1.03-2.372-1.474L753.535,152l-1.911-2.075,1.508-1.2-2.872-2.054c3.722-6.073,7.747-12.223,13.623-16.249s14.087-5.457,20.107-1.649c3.125,1.977,5.335,5.115,7.106,8.362,3.56,6.53,6.7,12.9,7.162,20.318-2.236-2.178-5.5-3.405-7.738-5.583a16.76,16.76,0,0,0-3.338-2.732c-2.339-1.319-5.138-1.436-7.757-2.031a11.652,11.652,0,0,1-5.3-2.912c-1.982-1.688-2.062-1.035-4.064.865Q764.853,150.012,759.634,154.956Z" transform="translate(-330.15 -120.55)" fill="#2f2e41"/>
+    </g>
+  </g>
+</svg>

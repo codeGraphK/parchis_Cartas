@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.monproyect.es" targetNamespace="http://www.monproyect.es" elementFormDefault="qualified">
+<xs:element name="estilos">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="estilo" maxOccurs="unbounded" type="estiloType"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<!-- tipo de elemento para todos los estilos -->
+
+<xs:complexType name="estiloType">
+    <xs:sequence>
+        <xs:element name="colores" type="coloresType" />
+        <xs:element name="texto" type="textoType" />
+        <xs:element name="imagenes" type="imagenesType" />
+    </xs:sequence>
+    <xs:attribute name="num" type="xs:integer"/>
+</xs:complexType>
+
+<!-- declaración de los tres elementos hijos de estilo -->
+
+<xs:complexType name="coloresType">
+    <xs:sequence>
+        <xs:element name="principal" type="coloresChildType"/>
+        <xs:element name="comPrincipal" type="coloresChildType"/>
+        <xs:element name="secundario" type="coloresChildTypeExt"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="textoType">
+    <xs:sequence>
+        <xs:element name="segundaPantalla" type="pantallaTypeSub"/>
+        <xs:element name="terceraPantalla" type="pantallaTypeTwoNames"/>
+        <xs:element name="cuartaPantalla" type="pantallaTypeFourNames"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="imagenesType">
+    <xs:sequence>
+        <xs:element name="logo" type="imagenesChildType"/>
+        <xs:element name="cartaBack" type="imagenesChildType"/>
+        <xs:element name="curvaMayor" type="xs:string"/>
+        <xs:element name="curvaMenor" type="xs:string"/>
+        <xs:element name="primeraIlustracion" type="xs:string"/>
+        <xs:element name="segundaIlustracion" type="xs:string"/>
+    </xs:sequence>
+</xs:complexType>
+
+<!-- declaración de los tipos de los hijos de colores -->
+
+<xs:complexType name="coloresChildType">
+    <xs:sequence>
+        <xs:element name="regular" type="colorSimpleRestrict"/>
+        <xs:element name="oscuro" type="colorSimpleRestrict"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="coloresChildTypeExt">
+    <xs:complexContent>
+        <xs:extension base="coloresChildType">
+            <xs:sequence>
+                <xs:element name="claro" type="colorSimpleRestrict"/>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+<!-- restricciones de tipo simple -->
+
+<xs:simpleType name="colorSimpleRestrict">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="#([a-fA-F0-9]{6})"></xs:pattern>
+    </xs:restriction>
+</xs:simpleType>
+
+<!-- declaración de los hijos de texto -->
+
+<xs:complexType name="pantallaTypeDef">
+    <xs:sequence>
+        <xs:element name="titulo" type="tituloType"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tituloType">
+    <xs:sequence>
+        <xs:element name="valor" type="xs:string"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="pantallaTypeSub">
+    <xs:complexContent>
+        <xs:extension base="pantallaTypeDef">
+            <xs:sequence>
+                <xs:element name="subtitulo" type="tituloType"/>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+<xs:complexType name="pantallaTypeTwoNames">
+    <xs:complexContent>
+        <xs:extension base="pantallaTypeDef">
+            <xs:sequence>
+                <xs:element name="nombre" minOccurs="2" maxOccurs="2" type="nombreType"/>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+<xs:complexType name="pantallaTypeFourNames">
+    <xs:complexContent>
+        <xs:extension base="pantallaTypeDef">
+            <xs:sequence>
+                <xs:element name="nombre" minOccurs="4" maxOccurs="4" type="nombreType"/>
+            </xs:sequence>
+        </xs:extension>
+    </xs:complexContent>
+</xs:complexType>
+
+<!-- restricciones tipo simple -->
+
+<xs:simpleType name="nombreType">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[a-zA-Z\s]{3,15}"></xs:pattern>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="margenType">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[0-9]?[0-9]((.[0-9])?[0-9]?)?vh"></xs:pattern>
+    </xs:restriction>
+</xs:simpleType>
+
+<!-- declaración de los hijos de imágenes -->
+
+<xs:simpleType name="imagenesChildType">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="url[(].+[)]"></xs:pattern>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

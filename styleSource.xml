@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estilos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.monproyect.es" xsi:schemaLocation="http://www.monproyect.es styleSourceRules.xsd">
+    <estilo num="1">
+        <colores>
+            <principal>
+                <regular>#1B998B</regular>
+                <oscuro>#255957</oscuro>
+            </principal>
+            <comPrincipal>
+                <regular>#EFFFF5</regular>
+                <oscuro>#E8F7EE</oscuro>
+            </comPrincipal>
+            <secundario>
+                <regular>#F46036</regular>
+                <oscuro>#CE3F19</oscuro>
+                <claro>#FEF0EC</claro>
+            </secundario>
+        </colores>
+        <texto>
+            <segundaPantalla>
+                <titulo>
+                    <valor>Ridondanza S.A</valor>
+                </titulo>
+                <subtitulo>
+                    <valor>Più ridondanza rispetto agli stipendi</valor>
+                </subtitulo>
+            </segundaPantalla>
+            <terceraPantalla>
+                <titulo>
+                    <valor>Le lettere</valor>
+                </titulo>
+                <nombre>Gior</nombre>
+                <nombre>Hugo</nombre>
+            </terceraPantalla>
+            <cuartaPantalla>
+                <titulo>
+                    <valor>Parcheesi</valor>
+                </titulo>
+                <nombre>Quan</nombre>
+                <nombre>Petto</nombre>
+                <nombre>Pevre</nombre>
+                <nombre>Caste</nombre>
+            </cuartaPantalla>
+        </texto>
+        <imagenes>
+            <logo>url(Ejemplo)</logo>
+            <cartaBack>url('img/backCardFirst.svg')</cartaBack>
+            <curvaMayor>img/purpleSectionFirst.svg</curvaMayor>
+            <curvaMenor>img/tealSectionFirst.svg</curvaMenor>
+            <primeraIlustracion>img/primerUnDrawFirst.svg</primeraIlustracion>
+            <segundaIlustracion>img/segundoUnDrawFirst.svg</segundaIlustracion>
+        </imagenes>
+    </estilo>
+    <estilo num="2">
+        <colores>
+            <principal>
+                <regular>#4C2D3A</regular>
+                <oscuro>#311D25</oscuro>
+            </principal>
+            <comPrincipal>
+                <regular>#F6EEDF</regular>
+                <oscuro>#DED6C6</oscuro>
+            </comPrincipal>
+            <secundario>
+                <regular>#058ED9</regular>
+                <oscuro>#04689E</oscuro>
+                <claro>#BAE0F4</claro>
+            </secundario>
+        </colores>
+        <texto>
+            <segundaPantalla>
+                <titulo>
+                    <valor>Poisson à L'Orange</valor>
+                </titulo>
+                <subtitulo>
+                    <valor>Je préfère une glace à la saucisse</valor>
+                </subtitulo>
+            </segundaPantalla>
+            <terceraPantalla>
+                <titulo>
+                    <valor>Des Lettres</valor>
+                </titulo>
+                <nombre>Ange</nombre>
+                <nombre>Rome</nombre>
+            </terceraPantalla>
+            <cuartaPantalla>
+                <titulo>
+                    <valor>Parch'si de Base</valor>
+                </titulo>
+                <nombre>Char</nombre>
+                <nombre>Lotte</nombre>
+                <nombre>Abrah</nombre>
+                <nombre>Amow</nombre>
+            </cuartaPantalla>
+        </texto>
+        <imagenes>
+            <logo>url(Ejemplo)</logo>
+            <cartaBack>url('img/backCard.svg')</cartaBack>
+            <curvaMayor>img/purpleSection.svg</curvaMayor>
+            <curvaMenor>img/tealSection.svg</curvaMenor>
+            <primeraIlustracion>img/primerUnDraw.svg</primeraIlustracion>
+            <segundaIlustracion>img/segundoUnDraw.svg</segundaIlustracion>
+        </imagenes>
+    </estilo>
+    <estilo num="3">
+        <colores>
+            <principal>
+                <regular>#4f304b</regular>
+                <oscuro>#22031f</oscuro>
+            </principal>
+            <comPrincipal>
+                <regular>#ffe6ff</regular>
+                <oscuro>#e8d2e8</oscuro>
+            </comPrincipal>
+            <secundario>
+                <regular>#00c893</regular>
+                <oscuro>#00805e</oscuro>
+                <claro>#e9fef4</claro>
+            </secundario>
+        </colores>
+        <texto>
+            <segundaPantalla>
+                <titulo>
+                    <valor>Estilo inicial</valor>
+                </titulo>
+                <subtitulo>
+                    <valor>Este es el valor por defecto</valor>
+                </subtitulo>
+            </segundaPantalla>
+            <terceraPantalla>
+                <titulo>
+                    <valor>Son Cartas</valor>
+                </titulo>
+                <nombre>Paco</nombre>
+                <nombre>Pepe</nombre>
+            </terceraPantalla>
+            <cuartaPantalla>
+                <titulo>
+                    <valor>Este Parchis</valor>
+                </titulo>
+                <nombre>Lucho</nombre>
+                <nombre>Perez</nombre>
+                <nombre>Henry</nombre>
+                <nombre>Diego</nombre>
+            </cuartaPantalla>
+        </texto>
+        <imagenes>
+            <logo>url(Ejemplo)</logo>
+            <cartaBack>url('img/backCard.svg')</cartaBack>
+            <curvaMayor>img/purpleSection.svg</curvaMayor>
+            <curvaMenor>img/tealSection.svg</curvaMenor>
+            <primeraIlustracion>img/primerUnDraw.svg</primeraIlustracion>
+            <segundaIlustracion>img/segundoUnDraw.svg</segundaIlustracion>
+        </imagenes>
+    </estilo>
+</estilos>
